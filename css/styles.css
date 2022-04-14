@@ -975,7 +975,7 @@ textarea {
     margin-left: 12px;
 }
 .checkbox:checked ~ .checkbox-icon-svg{ 
-    background fill : var(--link-color);
+    background : var(--link-color);
     border-color:var(--link-color);
     background-color:var(--link-color);
     background-origin :border-box;
