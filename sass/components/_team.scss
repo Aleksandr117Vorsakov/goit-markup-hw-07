@@ -1,126 +1,138 @@
 .team{
     background:var(--secondary-background-color);
-}
 .team-title{
-    color:var(--heading-main-color);
-    font-size: 36px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin: 0 auto;
-}
-.team-demyanenko{
-    color:var(--heading-main-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-}
-.team-demyanenko-position{
-    color:var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.team-repin{
-    color:var(--heading-main-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-}
-.team-repin-position{
-    color:var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.team-tarasov{
-    color:var(--heading-main-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-}
-.team-tarasov-position{
-    color:var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.team-ermakov{
-    color:var(--heading-main-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-}
-.team-ermakov-position{
-    color:var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.teem-icons{
-   display: flex;
-   padding-left: 0;
-   justify-content: center;
-   list-style-type: none;
-   margin-top: 16px;
-}
-.teem-link-icon{
-    width: 44px;
-    height: 44px;
-    background-color: var(--main-background-color);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition:background-color var(--anim-fast) ;
-}
-.teem-link-icon:hover,
-.teem-link-icon:focus{
-    background-color:var(--link-color);  
-}
-
-.teem-icon{
-    margin-right: 10px;
-}
-.svg-icon{
-    fill: #AFB1B8;
-    transition:fill var(--anim-fast) ;
-}
-.teem-link-icon:hover .svg-icon, .teem-link-icon:focus .svg-icon{
-    fill: var(--main-background-color);
-}
-
+        color:var(--heading-main-color);
+        font-size: 36px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin: 0 auto;
+    }
 .staff{
-    display: flex;
-    margin-top: 50px;
-}
+        display: flex;
+        margin-top: 50px;
+    }
 .staff-item{
-    margin-right: 30px; 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px; 
-}
-.staff-item:last-child{
-    margin-right: 0;
-}
-.team-work{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color:var(--main-background-color);
+        margin-right: 30px; 
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+.team-work{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color:var(--main-background-color);
+    
+    }
+.team-demyanenko{
+        color:var(--heading-main-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+    }
+.team-demyanenko-position{
+        color:var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+.team-repin{
+        color:var(--heading-main-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+    }
+.team-repin-position{
+        color:var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+.team-tarasov{
+        color:var(--heading-main-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+    }
+.team-tarasov-position{
+        color:var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+.team-ermakov{
+        color:var(--heading-main-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+    }
+.team-ermakov-position{
+        color:var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+.teem-icons{
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+        list-style-type: none;
+        margin-top: 16px;
+     }
+.teem-link-icon{
+        width: 44px;
+        height: 44px;
+        background-color: var(--main-background-color);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition:background-color var(--anim-fast) ;
+           
+        &:hover,
+        &:focus{
+          background-color:var(--link-color);  
+          }
+     }
+.teem-icon{
+        margin-right: 10px;
+    }
+.svg-icon{
+        fill: #AFB1B8;
+        transition:fill var(--anim-fast) ;
+          
+        .teem-link-icon:hover &,
+        .teem-link-icon:focus &{
+            fill: var(--main-background-color);
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
