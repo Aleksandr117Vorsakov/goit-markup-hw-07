@@ -599,8 +599,7 @@ img {
   transition: background-color var(--anim-fast);
 }
 
-.teem__link__icon:hover,
-.teem__link__icon:focus {
+.teem__link__icon:hover, .teem__link__icon:focus {
   background-color: var(--link-color);
 }
 
